@@ -71,6 +71,14 @@ for c in cities:
 
 # TODO Get latitude and longitude values from the user
 
+print("Welcome to City Search! Let's find the locations you want! We will compare two coordinates to find all cities in that square. To get started, enter the latitude of the first coordinate:\n")
+first_lat = input('Latitude: ')
+print('Excellent! Now for the first longitude: \n')
+first_lon = input('Longitude: ')
+print("Great, halway there! Let's do the second set: \n")
+second_lat = input('Latitude: ')
+second_lon = input('Longitude: ')
+
 def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
   # within will hold the cities that fall within the specified region
   within = []
